@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91px;
+}
+.nav_topbar {
+    padding-left: 88px;
+}
+.nav_topbar a{
+    padding: 54px ;
+    color: #9f9f9f;
+}
+.nav_topbar a:hover{
+    color: black;
+}
+.social_topbar {
+    padding: 0 65px;
+}
+.social_topbar a{
+    padding-left: 30px;
+}
+.banner_img {
+    height: 336px;
+    width: 100%;
+}
+.big_container{
+    display: flex;
+}
+.main{
+    width: 80vw;
+    padding: 25px 13% 25px 13%;
+}
+.article{
+    display: flex;
+    padding-top: 25px;
+}
+.image_article{
+    width: 364px;
+    height: 203px;
+}
+.text_container{
+    display: flex; 
+    flex-direction: column;
+    padding-left: 15px;
+}
+.article_date{
+    padding-bottom: 15px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.article_title{
+    padding-bottom: 15px;
+    font-family: "Cardo";
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    
+}
+.article_texte{
+    width: 120px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+.sidebar{
+    width: 20vw;
+    background: #FBFBFB;
+    padding-left: 57px;
+}
+.sidebar_title{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+    padding-top: 43px;
+    padding-bottom: 36px;
+}
+.sidebar a{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    color: #9F9F9F;
+}
+.sidebar a:hover{
+    color:black;
+}
+.sidebar li{
+    padding-bottom: 17px;
+}
+.sidebar_separation{
+    margin-top: 25px;
+    background: #C4C4C4;
+    margin-right: 40px;
+}
+.footer{
+    background: #fbfbfb;
+    text-align: center;
+    height: 40px;
+}
